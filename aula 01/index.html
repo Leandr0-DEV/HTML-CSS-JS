@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula HTML/CSS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Bem-vindo à Minha Página</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem praesentium ullam eligendi delectus vitae culpa quam, eaque est molestias, eum incidunt maiores necessitatibus? Blanditiis vitae praesentium delectus consectetur aut?
+        </p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Serviço 01</li>
+            <li>Serviço 02</li>
+            <li>Serviço 03</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato!</h2>
+        <form action="/processar" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>
