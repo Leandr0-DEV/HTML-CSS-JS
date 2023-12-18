@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 52, 80);
+    color: rgb(241, 241, 231);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-header {
+    margin-top: 14vw;
+}
+
+#cabecalho {
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgba(255, 17, 0, 0.904);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    text-decoration: blanchedalmond;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+button {
+    font-size: 12px;
+    background-color: rgb(46, 40, 40);
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(252, 3, 3);
+}
+
+section {
+    margin: 20px;
+}
